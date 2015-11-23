@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		969F31861BFFB4A30047A0F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969F31851BFFB4A30047A0F6 /* AppDelegate.swift */; };
+		969F31881BFFB4A30047A0F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969F31871BFFB4A30047A0F6 /* ViewController.swift */; };
+		969F318B1BFFB4A30047A0F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969F31891BFFB4A30047A0F6 /* Main.storyboard */; };
+		969F318E1BFFB4A30047A0F6 /* Project_Reciprocity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 969F318C1BFFB4A30047A0F6 /* Project_Reciprocity.xcdatamodeld */; };
+		969F31901BFFB4A30047A0F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969F318F1BFFB4A30047A0F6 /* Assets.xcassets */; };
+		969F31931BFFB4A30047A0F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969F31911BFFB4A30047A0F6 /* LaunchScreen.storyboard */; };
+		969F319E1BFFB4A30047A0F6 /* Project_ReciprocityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969F319D1BFFB4A30047A0F6 /* Project_ReciprocityTests.swift */; };
+		969F31A91BFFB4A30047A0F6 /* Project_ReciprocityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969F31A81BFFB4A30047A0F6 /* Project_ReciprocityUITests.swift */; };
+		969F31B71BFFB8D20047A0F6 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969F31B61BFFB8D20047A0F6 /* loginViewController.swift */; };
+		969F31B91BFFB9070047A0F6 /* createTribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969F31B81BFFB9070047A0F6 /* createTribeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		969F319A1BFFB4A30047A0F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 969F317A1BFFB4A30047A0F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 969F31811BFFB4A30047A0F6;
+			remoteInfo = "Project Reciprocity";
+		};
+		969F31A51BFFB4A30047A0F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 969F317A1BFFB4A30047A0F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 969F31811BFFB4A30047A0F6;
+			remoteInfo = "Project Reciprocity";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		969F31821BFFB4A30047A0F6 /* Project Reciprocity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Reciprocity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		969F31851BFFB4A30047A0F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		969F31871BFFB4A30047A0F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		969F318A1BFFB4A30047A0F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		969F318D1BFFB4A30047A0F6 /* Project_Reciprocity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Project_Reciprocity.xcdatamodel; sourceTree = "<group>"; };
+		969F318F1BFFB4A30047A0F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		969F31921BFFB4A30047A0F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		969F31941BFFB4A30047A0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		969F31991BFFB4A30047A0F6 /* Project ReciprocityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project ReciprocityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		969F319D1BFFB4A30047A0F6 /* Project_ReciprocityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_ReciprocityTests.swift; sourceTree = "<group>"; };
+		969F319F1BFFB4A30047A0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		969F31A41BFFB4A30047A0F6 /* Project ReciprocityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project ReciprocityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		969F31A81BFFB4A30047A0F6 /* Project_ReciprocityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_ReciprocityUITests.swift; sourceTree = "<group>"; };
+		969F31AA1BFFB4A30047A0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		969F31B61BFFB8D20047A0F6 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		969F31B81BFFB9070047A0F6 /* createTribeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createTribeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		969F317F1BFFB4A30047A0F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969F31961BFFB4A30047A0F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969F31A11BFFB4A30047A0F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		969F31791BFFB4A30047A0F6 = {
+			isa = PBXGroup;
+			children = (
+				969F31841BFFB4A30047A0F6 /* Project Reciprocity */,
+				969F319C1BFFB4A30047A0F6 /* Project ReciprocityTests */,
+				969F31A71BFFB4A30047A0F6 /* Project ReciprocityUITests */,
+				969F31831BFFB4A30047A0F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		969F31831BFFB4A30047A0F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				969F31821BFFB4A30047A0F6 /* Project Reciprocity.app */,
+				969F31991BFFB4A30047A0F6 /* Project ReciprocityTests.xctest */,
+				969F31A41BFFB4A30047A0F6 /* Project ReciprocityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		969F31841BFFB4A30047A0F6 /* Project Reciprocity */ = {
+			isa = PBXGroup;
+			children = (
+				969F31891BFFB4A30047A0F6 /* Main.storyboard */,
+				969F31851BFFB4A30047A0F6 /* AppDelegate.swift */,
+				969F31BA1BFFB91B0047A0F6 /* View Controllers */,
+				969F318F1BFFB4A30047A0F6 /* Assets.xcassets */,
+				969F31911BFFB4A30047A0F6 /* LaunchScreen.storyboard */,
+				969F31941BFFB4A30047A0F6 /* Info.plist */,
+				969F318C1BFFB4A30047A0F6 /* Project_Reciprocity.xcdatamodeld */,
+			);
+			path = "Project Reciprocity";
+			sourceTree = "<group>";
+		};
+		969F319C1BFFB4A30047A0F6 /* Project ReciprocityTests */ = {
+			isa = PBXGroup;
+			children = (
+				969F319D1BFFB4A30047A0F6 /* Project_ReciprocityTests.swift */,
+				969F319F1BFFB4A30047A0F6 /* Info.plist */,
+			);
+			path = "Project ReciprocityTests";
+			sourceTree = "<group>";
+		};
+		969F31A71BFFB4A30047A0F6 /* Project ReciprocityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				969F31A81BFFB4A30047A0F6 /* Project_ReciprocityUITests.swift */,
+				969F31AA1BFFB4A30047A0F6 /* Info.plist */,
+			);
+			path = "Project ReciprocityUITests";
+			sourceTree = "<group>";
+		};
+		969F31BA1BFFB91B0047A0F6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				969F31871BFFB4A30047A0F6 /* ViewController.swift */,
+				969F31B81BFFB9070047A0F6 /* createTribeViewController.swift */,
+				969F31B61BFFB8D20047A0F6 /* loginViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		969F31811BFFB4A30047A0F6 /* Project Reciprocity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969F31AD1BFFB4A30047A0F6 /* Build configuration list for PBXNativeTarget "Project Reciprocity" */;
+			buildPhases = (
+				969F317E1BFFB4A30047A0F6 /* Sources */,
+				969F317F1BFFB4A30047A0F6 /* Frameworks */,
+				969F31801BFFB4A30047A0F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project Reciprocity";
+			productName = "Project Reciprocity";
+			productReference = 969F31821BFFB4A30047A0F6 /* Project Reciprocity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		969F31981BFFB4A30047A0F6 /* Project ReciprocityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969F31B01BFFB4A30047A0F6 /* Build configuration list for PBXNativeTarget "Project ReciprocityTests" */;
+			buildPhases = (
+				969F31951BFFB4A30047A0F6 /* Sources */,
+				969F31961BFFB4A30047A0F6 /* Frameworks */,
+				969F31971BFFB4A30047A0F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				969F319B1BFFB4A30047A0F6 /* PBXTargetDependency */,
+			);
+			name = "Project ReciprocityTests";
+			productName = "Project ReciprocityTests";
+			productReference = 969F31991BFFB4A30047A0F6 /* Project ReciprocityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		969F31A31BFFB4A30047A0F6 /* Project ReciprocityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969F31B31BFFB4A30047A0F6 /* Build configuration list for PBXNativeTarget "Project ReciprocityUITests" */;
+			buildPhases = (
+				969F31A01BFFB4A30047A0F6 /* Sources */,
+				969F31A11BFFB4A30047A0F6 /* Frameworks */,
+				969F31A21BFFB4A30047A0F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				969F31A61BFFB4A30047A0F6 /* PBXTargetDependency */,
+			);
+			name = "Project ReciprocityUITests";
+			productName = "Project ReciprocityUITests";
+			productReference = 969F31A41BFFB4A30047A0F6 /* Project ReciprocityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		969F317A1BFFB4A30047A0F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Andrei Lyskov";
+				TargetAttributes = {
+					969F31811BFFB4A30047A0F6 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					969F31981BFFB4A30047A0F6 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 969F31811BFFB4A30047A0F6;
+					};
+					969F31A31BFFB4A30047A0F6 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 969F31811BFFB4A30047A0F6;
+					};
+				};
+			};
+			buildConfigurationList = 969F317D1BFFB4A30047A0F6 /* Build configuration list for PBXProject "Project Reciprocity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 969F31791BFFB4A30047A0F6;
+			productRefGroup = 969F31831BFFB4A30047A0F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				969F31811BFFB4A30047A0F6 /* Project Reciprocity */,
+				969F31981BFFB4A30047A0F6 /* Project ReciprocityTests */,
+				969F31A31BFFB4A30047A0F6 /* Project ReciprocityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		969F31801BFFB4A30047A0F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969F31931BFFB4A30047A0F6 /* LaunchScreen.storyboard in Resources */,
+				969F31901BFFB4A30047A0F6 /* Assets.xcassets in Resources */,
+				969F318B1BFFB4A30047A0F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969F31971BFFB4A30047A0F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969F31A21BFFB4A30047A0F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		969F317E1BFFB4A30047A0F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969F31B71BFFB8D20047A0F6 /* loginViewController.swift in Sources */,
+				969F31B91BFFB9070047A0F6 /* createTribeViewController.swift in Sources */,
+				969F31881BFFB4A30047A0F6 /* ViewController.swift in Sources */,
+				969F318E1BFFB4A30047A0F6 /* Project_Reciprocity.xcdatamodeld in Sources */,
+				969F31861BFFB4A30047A0F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969F31951BFFB4A30047A0F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969F319E1BFFB4A30047A0F6 /* Project_ReciprocityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969F31A01BFFB4A30047A0F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969F31A91BFFB4A30047A0F6 /* Project_ReciprocityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		969F319B1BFFB4A30047A0F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 969F31811BFFB4A30047A0F6 /* Project Reciprocity */;
+			targetProxy = 969F319A1BFFB4A30047A0F6 /* PBXContainerItemProxy */;
+		};
+		969F31A61BFFB4A30047A0F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 969F31811BFFB4A30047A0F6 /* Project Reciprocity */;
+			targetProxy = 969F31A51BFFB4A30047A0F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		969F31891BFFB4A30047A0F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				969F318A1BFFB4A30047A0F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		969F31911BFFB4A30047A0F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				969F31921BFFB4A30047A0F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		969F31AB1BFFB4A30047A0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		969F31AC1BFFB4A30047A0F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		969F31AE1BFFB4A30047A0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project Reciprocity/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "core.Project-Reciprocity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		969F31AF1BFFB4A30047A0F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project Reciprocity/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "core.Project-Reciprocity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		969F31B11BFFB4A30047A0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project ReciprocityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "core.Project-ReciprocityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project Reciprocity.app/Project Reciprocity";
+			};
+			name = Debug;
+		};
+		969F31B21BFFB4A30047A0F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project ReciprocityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "core.Project-ReciprocityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project Reciprocity.app/Project Reciprocity";
+			};
+			name = Release;
+		};
+		969F31B41BFFB4A30047A0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project ReciprocityUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "core.Project-ReciprocityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project Reciprocity";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		969F31B51BFFB4A30047A0F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project ReciprocityUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "core.Project-ReciprocityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project Reciprocity";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		969F317D1BFFB4A30047A0F6 /* Build configuration list for PBXProject "Project Reciprocity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969F31AB1BFFB4A30047A0F6 /* Debug */,
+				969F31AC1BFFB4A30047A0F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969F31AD1BFFB4A30047A0F6 /* Build configuration list for PBXNativeTarget "Project Reciprocity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969F31AE1BFFB4A30047A0F6 /* Debug */,
+				969F31AF1BFFB4A30047A0F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		969F31B01BFFB4A30047A0F6 /* Build configuration list for PBXNativeTarget "Project ReciprocityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969F31B11BFFB4A30047A0F6 /* Debug */,
+				969F31B21BFFB4A30047A0F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		969F31B31BFFB4A30047A0F6 /* Build configuration list for PBXNativeTarget "Project ReciprocityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969F31B41BFFB4A30047A0F6 /* Debug */,
+				969F31B51BFFB4A30047A0F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		969F318C1BFFB4A30047A0F6 /* Project_Reciprocity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				969F318D1BFFB4A30047A0F6 /* Project_Reciprocity.xcdatamodel */,
+			);
+			currentVersion = 969F318D1BFFB4A30047A0F6 /* Project_Reciprocity.xcdatamodel */;
+			path = Project_Reciprocity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 969F317A1BFFB4A30047A0F6 /* Project object */;
+}
